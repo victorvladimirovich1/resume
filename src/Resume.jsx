@@ -203,7 +203,7 @@ const Resume = () => {
 
             <h2 className="text-xl font-bold mb-4 mt-6">ХОББИ</h2>
             <ul className="list-disc list-inside text-gray-700">
-              <li>строю хуи в майнкрафте</li>
+              <li>УМЕЮ ВСЁ</li>
             </ul>
           </div>
         </div>
