@@ -200,6 +200,35 @@ const Resume = () => {
                 <p className="text-gray-600">Студент</p>
               </div>
             </div>
+            <h2 className="text-xl font-bold mb-4 mt-6">СПРАВКИ</h2>
+            <div className="flex items-start mb-4">
+              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
+              <div>
+                <h3 className="text-lg font-semibold">
+                  Сертификат о окончании курса "Компьютерная Грамотность"
+                </h3>
+                <p className="text-gray-600">2024, Бишкек</p>
+              </div>
+            </div>
+            <div className="flex items-start mb-4">
+              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
+              <div>
+                <h3 className="text-lg font-semibold">
+                  Сертификат о окончании курса "Web-Дизайн"
+                </h3>
+                <p className="text-gray-600">2024, Бишкек</p>
+              </div>
+            </div>
+            <div className="flex items-start mb-4">
+              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
+              <div>
+                <h3 className="text-lg font-semibold">
+                  Диплом о окончании полного курса "Специалист по
+                  интернет-технологиям"
+                </h3>
+                <p className="text-gray-600">2024, Бишкек</p>
+              </div>
+            </div>
 
             <h2 className="text-xl font-bold mb-4 mt-6">ХОББИ</h2>
             <ul className="list-disc list-inside text-gray-700">
