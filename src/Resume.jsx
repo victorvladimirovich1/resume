@@ -3,14 +3,16 @@ import img from "./assets/sigmo.png";
 
 const Resume = () => {
   return (
-    <div className="bg-gray-100 font-sans min-h-screen flex justify-center items-center">
-      <div className="max-w-4xl mx-auto bg-white shadow-md p-8 my-8">
-        <div className="bg-gray-800 text-white p-6 text-center">
-          <h1 className="text-4xl font-bold">Нур-Тилек Алиев</h1>
-          <p className="text-lg mt-2">Специалист по интернет-технологиям</p>
+    <div className="bg-gray-100 font-sans min-h-screen flex justify-center items-center px-4">
+      <div className="max-w-4xl w-full mx-auto bg-white shadow-md p-4 sm:p-8 my-8">
+        <div className="bg-gray-800 text-white p-4 sm:p-6 text-center">
+          <h1 className="text-2xl sm:text-4xl font-bold">Нур-Тилек Алиев</h1>
+          <p className="text-base sm:text-lg mt-2">
+            Специалист по интернет-технологиям
+          </p>
         </div>
 
-        <div className="flex justify-between mt-6 text-gray-700">
+        <div className="flex flex-col sm:flex-row justify-between mt-4 sm:mt-6 text-gray-700 space-y-4 sm:space-y-0">
           <div className="flex items-center">
             <svg
               className="w-5 h-5 mr-2"
@@ -70,12 +72,18 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="flex mt-8">
-          <div className="w-1/3 pr-6 border-r">
-            <div className="w-32 h-32 rounded-full mb-6">
-              <img src={img} alt="" className="rounded-full" />
+        <div className="flex flex-col sm:flex-row mt-6 sm:mt-8">
+          <div className="w-full sm:w-1/3 sm:pr-6 sm:border-r">
+            <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto sm:mx-0 mb-6">
+              <img
+                src={img}
+                alt="Profile"
+                className="rounded-full object-cover w-full h-full"
+              />
             </div>
-            <h2 className="text-xl font-bold mb-4">Навыки</h2>
+            <h2 className="text-lg sm:text-xl font-bold mb-4 text-center sm:text-left">
+              Навыки
+            </h2>
             <div className="mb-4">
               <p className="text-gray-700">Презентация</p>
               <div className="w-full bg-gray-200 h-2 rounded">
@@ -87,15 +95,6 @@ const Resume = () => {
             </div>
             <div className="mb-4">
               <p className="text-gray-700">Сотрудничество</p>
-              <div className="w-full bg-gray-200 h-2 rounded">
-                <div
-                  className="bg-gray-600 h-2 rounded"
-                  style={{ width: "100%" }}
-                ></div>
-              </div>
-            </div>
-            <div className="mb-4">
-              <p className="text-gray-700">Презентация</p>
               <div className="w-full bg-gray-200 h-2 rounded">
                 <div
                   className="bg-gray-600 h-2 rounded"
@@ -120,17 +119,22 @@ const Resume = () => {
                   style={{ width: "70%" }}
                 ></div>
               </div>
-              <h2 className="text-xl font-bold mb-4 mt-6">СПЕЦИАЛИЗАЦИЯ</h2>
-              <ul className="list-disc list-inside text-gray-700 mb-4">
-                <li>Практический опыт работы с ООП</li>
-                <li>
-                  Знание основ фреймворков по типу React, Laravel, RedBeanPHP
-                </li>
-                <li>Опыт работы с Web API</li>
-              </ul>
             </div>
 
-            <h2 className="text-xl font-bold mb-4 mt-6">ЯЗЫКИ</h2>
+            <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6 text-center sm:text-left">
+              СПЕЦИАЛИЗАЦИЯ
+            </h2>
+            <ul className="list-disc list-inside text-gray-700 mb-4">
+              <li>Практический опыт работы с ООП</li>
+              <li>
+                Знание основ фреймворков по типу React, Laravel, RedBeanPHP
+              </li>
+              <li>Опыт работы с Web API</li>
+            </ul>
+
+            <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6 text-center sm:text-left">
+              ЯЗЫКИ
+            </h2>
             <div className="mb-4">
               <p className="text-gray-700">Русский</p>
               <div className="w-full bg-gray-200 h-2 rounded">
@@ -149,8 +153,8 @@ const Resume = () => {
             </div>
           </div>
 
-          <div className="w-2/3 pl-6">
-            <p className="text-gray-700 mb-6">
+          <div className="w-full sm:w-2/3 sm:pl-6 mt-6 sm:mt-0">
+            <p className="text-gray-700 mb-6 text-sm sm:text-base">
               Я начинающий фронтенд-разработчик, стремящийся к профессиональному
               росту и обучению. Хотя у меня еще не так много опыта, я готов
               усердно работать, чтобы развить свои навыки и стать специалистом в
@@ -159,51 +163,93 @@ const Resume = () => {
               учиться на практике.
             </p>
 
-            <h2 className="text-xl font-bold mb-4">ОПЫТ РАБОТЫ</h2>
+            <h2 className="text-lg sm:text-xl font-bold mb-4">ОПЫТ РАБОТЫ</h2>
             <div className="flex items-start mb-4">
               <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
               <div>
-                <h3 className="text-lg font-semibold">
+                <h3 className="text-base sm:text-lg font-semibold">
                   Акимжанов Ерасыл - СПЕЦИАЛИСТ ПО ИНТЕРНЕТ-ТЕХНОЛОГИЯМ
                 </h3>
-                <p className="text-gray-600">апр. 2024 - май 2024, Бишкек</p>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  апр. 2024 - май 2024, Бишкек
+                </p>
               </div>
             </div>
             <div className="flex items-start mb-4">
               <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
               <div>
-                <h3 className="text-lg font-semibold">
+                <h3 className="text-base sm:text-lg font-semibold">
                   Улан Джумашев - Интеграция с VoIP-протоколами
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-sm sm:text-base">
                   середина мая 2024 - июль 2024, Бишкек
                 </p>
               </div>
             </div>
 
-            <h2 className="text-xl font-bold mb-4 mt-6">ОБРАЗОВАНИЕ</h2>
+            <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6">
+              ОБРАЗОВАНИЕ
+            </h2>
             <div className="flex items-start mb-4">
               <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
               <div>
-                <h3 className="text-lg font-semibold">
+                <h3 className="text-base sm:text-lg font-semibold">
                   Новопавловская школа им. Ч.Айтматова №1
                 </h3>
-                <p className="text-gray-600">2024, Бишкек</p>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  2024, Бишкек
+                </p>
               </div>
             </div>
             <div className="flex items-start mb-4">
               <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
               <div>
-                <h3 className="text-lg font-semibold">
+                <h3 className="text-base sm:text-lg font-semibold">
                   Профессиональный лицей № 98
                 </h3>
-                <p className="text-gray-600">Студент</p>
+                <p className="text-gray-600 text-sm sm:text-base">Студент</p>
               </div>
             </div>
 
-            <h2 className="text-xl font-bold mb-4 mt-6">ХОББИ</h2>
-            <ul className="list-disc list-inside text-gray-700">
-              <li>строю хуи в майнкрафте</li>
+            <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6">СПРАВКИ</h2>
+            <div className="flex items-start mb-4">
+              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold">
+                  Сертификат о окончании курса "Компьютерная Грамотность"
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  2024, Бишкек
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start mb-4">
+              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold">
+                  Сертификат о окончании курса "Web-Дизайн"
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  2024, Бишкек
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start mb-4">
+              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold">
+                  Диплом о окончании полного курса "Специалист по
+                  интернет-технологиям"
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  2024, Бишкек
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6">ХОББИ</h2>
+            <ul className="list-disc list-inside text-gray-700 text-sm sm:text-base">
+              <li>УМЕЮ ВСЁ</li>
             </ul>
           </div>
         </div>
