@@ -36,7 +36,7 @@ const Resume = () => {
             </svg>
             <p>
               <a href="https://maps.app.goo.gl/YuhJCmWwM5fYSZwH6">
-                ул. Белмазар 18, Бишкек, Кыргызстан
+                ул. Арматура 26, Бишкек
               </a>
             </p>
           </div>
@@ -90,7 +90,7 @@ const Resume = () => {
               <img
                 src={img}
                 alt="Profile"
-                className="rounded-full object-cover w-full h-full"
+                className="rounded-lg h-full border-1"
               />
             </div>
             <h2 className="text-lg sm:text-xl font-bold mb-4 text-center sm:text-left">
