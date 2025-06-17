@@ -115,7 +115,7 @@ const Resume = () => {
               <div className="w-full bg-gray-200 h-2 rounded">
                 <div
                   className="bg-gray-600 h-2 rounded"
-                  style={{ width: "80%" }}
+                  style={{ width: "100%" }}
                 ></div>
               </div>
             </div>
