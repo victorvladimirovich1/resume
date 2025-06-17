@@ -7,9 +7,7 @@ const Resume = () => {
       <div className="max-w-4xl w-full mx-auto bg-white shadow-md p-4 sm:p-8 my-8">
         <div className="bg-gray-800 text-white p-4 sm:p-6 text-center">
           <h1 className="text-2xl sm:text-4xl font-bold">Нур-Тилек Алиев</h1>
-          <p className="text-base sm:text-lg mt-2">
-            Специалист по интернет-технологиям
-          </p>
+          <p className="text-base sm:text-lg mt-2"></p>
         </div>
 
         <div className="flex flex-col sm:flex-row justify-between mt-4 sm:mt-6 text-gray-700 space-y-4 sm:space-y-0">
@@ -35,9 +33,7 @@ const Resume = () => {
               ></path>
             </svg>
             <p>
-              <a href="https://maps.app.goo.gl/YuhJCmWwM5fYSZwH6">
-                ул. Арматура 26, Бишкек
-              </a>
+              <a href="https://maps.app.goo.gl/YuhJCmWwM5fYSZwH6">Бишкек</a>
             </p>
           </div>
           <div className="flex items-center">
@@ -137,11 +133,8 @@ const Resume = () => {
               СПЕЦИАЛИЗАЦИЯ
             </h2>
             <ul className="list-disc list-inside text-gray-700 mb-4">
-              <li>Практический опыт работы с ООП</li>
-              <li>
-                Знание основ фреймворков по типу React, Laravel, RedBeanPHP
-              </li>
-              <li>Опыт работы с Web API</li>
+              <li>Знание основ фреймворков по типу React</li>
+              <li>Умею работать с Tailwind</li>
             </ul>
 
             <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6 text-center sm:text-left">
@@ -174,30 +167,6 @@ const Resume = () => {
               технологии и участвовать в проектах, где я могу применять
               полученные знания на практике и продолжать совершенствоваться.
             </p>
-
-            <h2 className="text-lg sm:text-xl font-bold mb-4">ОПЫТ РАБОТЫ</h2>
-            <div className="flex items-start mb-4">
-              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
-              <div>
-                <h3 className="text-base sm:text-lg font-semibold">
-                  Акимжанов Ерасыл - СПЕЦИАЛИСТ ПО ИНТЕРНЕТ-ТЕХНОЛОГИЯМ
-                </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
-                  апр. 2024 - май 2024, Бишкек
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start mb-4">
-              <div className="w-4 h-4 bg-gray-400 rounded-full mr-4 mt-1"></div>
-              <div>
-                <h3 className="text-base sm:text-lg font-semibold">
-                  Улан Джумашев - Интеграция с VoIP-протоколами
-                </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
-                  середина мая 2024 - июль 2024, Бишкек
-                </p>
-              </div>
-            </div>
 
             <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6">
               ОБРАЗОВАНИЕ
@@ -261,7 +230,7 @@ const Resume = () => {
 
             <h2 className="text-lg sm:text-xl font-bold mb-4 mt-6">ХОББИ</h2>
             <ul className="list-disc list-inside text-gray-700 text-sm sm:text-base">
-              <li>УМЕЮ ВСЁ</li>
+              <li>Музыка</li>
             </ul>
           </div>
         </div>
